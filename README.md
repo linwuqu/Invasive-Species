@@ -8,202 +8,204 @@
 
 ## 1. 研究物种名录
 
-本研究构建的入侵物种数据库共包含38个物种，总计10,460条有效记录。物种的详细信息如下表所示：
+本研究构建的入侵物种数据库共包含33个物种（部分物种因存在别名，原始记录中显示为38个名称），总计5,505条有效记录。物种的详细信息如下表所示：
 
 <div style="margin: 20px 0;">
 <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
 <thead>
 <tr style="background-color: #f0f0f0;">
-<th style="border: 1px solid #ddd; padding: 8px; text-align: center;">序号</th>
-<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">中文名称</th>
-<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">学名</th>
-<th style="border: 1px solid #ddd; padding: 8px; text-align: center;">记录数</th>
-<th style="border: 1px solid #ddd; padding: 8px; text-align: center;">序号</th>
-<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">中文名称</th>
-<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">学名</th>
-<th style="border: 1px solid #ddd; padding: 8px; text-align: center;">记录数</th>
+<th style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 5%;">序号</th>
+<th style="border: 1px solid #ddd; padding: 8px; text-align: left; width: 15%;">中文名称</th>
+<th style="border: 1px solid #ddd; padding: 8px; text-align: left; width: 25%;">学名</th>
+<th style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 8%;">记录数</th>
+<th style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 5%;">序号</th>
+<th style="border: 1px solid #ddd; padding: 8px; text-align: left; width: 15%;">中文名称</th>
+<th style="border: 1px solid #ddd; padding: 8px; text-align: left; width: 25%;">学名</th>
+<th style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 8%;">记录数</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">1</td>
-<td style="border: 1px solid #ddd; padding: 6px;">紫茎泽兰</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Ageratina adenophora</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">2114</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">20</td>
-<td style="border: 1px solid #ddd; padding: 6px;">马缨丹</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Lantana camara</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">381</td>
+<td style="border: 1px solid #ddd; padding: 6px;">互花米草</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Spartina alterniflora</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">852</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">18</td>
+<td style="border: 1px solid #ddd; padding: 6px;">凤眼蓝</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Eichhornia crassipes</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">65</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">2</td>
-<td style="border: 1px solid #ddd; padding: 6px;">藿香蓟</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Ageratum conyzoides</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">230</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">21</td>
-<td style="border: 1px solid #ddd; padding: 6px;">毒莴苣</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Lactuca serriola</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">24</td>
+<td style="border: 1px solid #ddd; padding: 6px;">野燕麦</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Avena fatua</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">765</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">19</td>
+<td style="border: 1px solid #ddd; padding: 6px;">刺苋</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Amaranthus spinosus</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">44</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">3</td>
-<td style="border: 1px solid #ddd; padding: 6px;">空心莲子草</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Alternanthera philoxeroides</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">1563</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">22</td>
-<td style="border: 1px solid #ddd; padding: 6px;">薇甘菊</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Mikania micrantha</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">735</td>
+<td style="border: 1px solid #ddd; padding: 6px;">紫茎泽兰</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Ageratina adenophora</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">597</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">20</td>
+<td style="border: 1px solid #ddd; padding: 6px;">银胶菊</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Parthenium hysterophorus</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">42</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">4</td>
+<td style="border: 1px solid #ddd; padding: 6px;">空心莲子草</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Alternanthera philoxeroides</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">412</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">21</td>
 <td style="border: 1px solid #ddd; padding: 6px;">长芒苋</td>
 <td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Amaranthus palmeri</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">66</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">23</td>
-<td style="border: 1px solid #ddd; padding: 6px;">光荚含羞草</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Mimosa bimucronata</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">21</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">36</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">5</td>
-<td style="border: 1px solid #ddd; padding: 6px;">刺苋</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Amaranthus spinosus</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">204</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">24</td>
-<td style="border: 1px solid #ddd; padding: 6px;">银胶菊</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Parthenium hysterophorus</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">279</td>
+<td style="border: 1px solid #ddd; padding: 6px;">加拿大一枝黄花</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Solidago canadensis</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">364</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">22</td>
+<td style="border: 1px solid #ddd; padding: 6px;">假苍耳</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Cyclachaena xanthiifolia</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">34</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">6</td>
 <td style="border: 1px solid #ddd; padding: 6px;">豚草</td>
 <td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Ambrosia artemisiifolia</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">1560</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">25</td>
-<td style="border: 1px solid #ddd; padding: 6px;">垂序商陆</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Phytolacca americana</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">143</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">363</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">23</td>
+<td style="border: 1px solid #ddd; padding: 6px;">苏门白酒草</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Erigeron sumatrensis</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">30</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">7</td>
-<td style="border: 1px solid #ddd; padding: 6px;">三裂叶豚草</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Ambrosia trifida</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">316</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">26</td>
+<td style="border: 1px solid #ddd; padding: 6px;">薇甘菊</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Mikania micrantha</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">331</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">24</td>
 <td style="border: 1px solid #ddd; padding: 6px;">大薸</td>
 <td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Pistia stratiotes</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">208</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">29</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">8</td>
-<td style="border: 1px solid #ddd; padding: 6px;">落葵薯</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Anredera cordifolia</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">38</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">27</td>
-<td style="border: 1px solid #ddd; padding: 6px;">假臭草</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Praxelis clematidea</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">212</td>
+<td style="border: 1px solid #ddd; padding: 6px;">三裂叶豚草</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Ambrosia trifida</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">270</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">25</td>
+<td style="border: 1px solid #ddd; padding: 6px;">刺苍耳</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Xanthium spinosum</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">29</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">9</td>
-<td style="border: 1px solid #ddd; padding: 6px;">野燕麦</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Avena fatua</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">1756</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">28</td>
-<td style="border: 1px solid #ddd; padding: 6px;">刺果瓜</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Sicyos angulatus</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">25</td>
+<td style="border: 1px solid #ddd; padding: 6px;">飞机草</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Chromolaena odorata</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">247</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">26</td>
+<td style="border: 1px solid #ddd; padding: 6px;">垂序商陆</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Phytolacca americana</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">20</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">10</td>
 <td style="border: 1px solid #ddd; padding: 6px;">三叶鬼针草</td>
 <td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Bidens pilosa</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">429</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">29</td>
-<td style="border: 1px solid #ddd; padding: 6px;">黄花刺茄</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Solanum rostratum</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">53</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">169</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">27</td>
+<td style="border: 1px solid #ddd; padding: 6px;">刺果瓜</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Sicyos angulatus</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">18</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">11</td>
+<td style="border: 1px solid #ddd; padding: 6px;">假高粱</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Sorghum halepense</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">165</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">28</td>
 <td style="border: 1px solid #ddd; padding: 6px;">水盾草</td>
 <td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Cabomba caroliniana</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">83</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">30</td>
-<td style="border: 1px solid #ddd; padding: 6px;">加拿大一枝黄花</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Solidago canadensis</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">1102</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">17</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">12</td>
-<td style="border: 1px solid #ddd; padding: 6px;">长刺蒺藜草</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Cenchrus longispinus</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">8</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">31</td>
-<td style="border: 1px solid #ddd; padding: 6px;">假高粱</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Sorghum halepense</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">350</td>
+<td style="border: 1px solid #ddd; padding: 6px;">藿香蓟</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Ageratum conyzoides</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">113</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">29</td>
+<td style="border: 1px solid #ddd; padding: 6px;">黄花刺茄</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Solanum rostratum</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">16</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">13</td>
-<td style="border: 1px solid #ddd; padding: 6px;">飞机草</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Chromolaena odorata</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">598</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">32</td>
-<td style="border: 1px solid #ddd; padding: 6px;">互花米草</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Spartina alterniflora</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">2206</td>
+<td style="border: 1px solid #ddd; padding: 6px;">假臭草</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Praxelis clematidea</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">112</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">30</td>
+<td style="border: 1px solid #ddd; padding: 6px;">光荚含羞草</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Mimosa bimucronata</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">15</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">14</td>
-<td style="border: 1px solid #ddd; padding: 6px;">凤眼蓝</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Eichhornia crassipes</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">1025</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">33</td>
-<td style="border: 1px solid #ddd; padding: 6px;">刺苍耳</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Xanthium spinosum</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">79</td>
+<td style="border: 1px solid #ddd; padding: 6px;">马缨丹</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Lantana camara</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">90</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">31</td>
+<td style="border: 1px solid #ddd; padding: 6px;">落葵薯</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Anredera cordifolia</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">12</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">15</td>
-<td style="border: 1px solid #ddd; padding: 6px;">小蓬草</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Erigeron canadensis</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">183</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">34</td>
-<td style="border: 1px solid #ddd; padding: 6px;">假苍耳</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Cyclachaena xanthiifolia</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">51</td>
+<td style="border: 1px solid #ddd; padding: 6px;">五爪金龙</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Ipomoea cairica</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">84</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">32</td>
+<td style="border: 1px solid #ddd; padding: 6px;">毒莴苣</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Lactuca serriola</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">10</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">16</td>
-<td style="border: 1px solid #ddd; padding: 6px;">苏门白酒草</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Erigeron sumatrensis</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">54</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">35</td>
 <td style="border: 1px solid #ddd; padding: 6px;">黄顶菊</td>
 <td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Flaveria bidentis</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">497</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">76</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">33</td>
+<td style="border: 1px solid #ddd; padding: 6px;">长刺蒺藜草</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Cenchrus longispinus</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">5</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 6px; text-align: center;">17</td>
-<td style="border: 1px solid #ddd; padding: 6px;">五爪金龙</td>
-<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Ipomoea cairica</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">227</td>
-<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">36-38</td>
-<td style="border: 1px solid #ddd; padding: 6px;" colspan="3">其他物种（略）</td>
+<td style="border: 1px solid #ddd; padding: 6px;">小蓬草</td>
+<td style="border: 1px solid #ddd; padding: 6px; font-style: italic;">Erigeron canadensis</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;">73</td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;"></td>
+<td style="border: 1px solid #ddd; padding: 6px;"></td>
+<td style="border: 1px solid #ddd; padding: 6px;"></td>
+<td style="border: 1px solid #ddd; padding: 6px; text-align: center;"></td>
 </tr>
 </tbody>
 <tfoot>
 <tr style="background-color: #e8e8e8; font-weight: bold;">
 <td colspan="7" style="border: 1px solid #ddd; padding: 8px; text-align: right;">总计：</td>
-<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">10,460</td>
+<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5,505</td>
 </tr>
 </tfoot>
 </table>
 </div>
 
-注：互花米草（2,206条）、紫茎泽兰（2,114条）、野燕麦（1,756条）、豚草（1,560条）和空心莲子草（1,563条）为记录数量最多的五个物种。本研究选取互花米草和野燕麦作为典型案例进行深入分析。
+**注：** 互花米草（852条）、野燕麦（765条）、紫茎泽兰（597条）、空心莲子草（412条）和加拿大一枝黄花（364条）为记录数量最多的五个物种。本研究选取互花米草和野燕麦作为典型案例进行深入分析。部分物种存在别名（如凤眼蓝又称水葫芦、藿香蓟又称胜红蓟等），表中已将别名记录合并统计。
 
 ---
 
